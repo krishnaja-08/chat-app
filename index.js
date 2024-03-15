@@ -1,5 +1,5 @@
 const net = require('net');
-const sockets=[]
+let sockets=[]
 const server = net.createServer((socket) => {
   sockets.push(socket)
   const index=sockets.indexOf(socket)
