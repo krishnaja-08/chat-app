@@ -15,13 +15,13 @@ This Web Socket Server application allows multiple clients to connect and commun
 2. Navigate to the project directory:
 
     ```
-    cd websocket-server
+    cd chat-app
     ```
 
 3. Start the server:
 
     ```
-    node server.js
+    node index.js
     ```
 
 4. Clients can connect to the server using telnet:
